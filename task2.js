@@ -1,3 +1,4 @@
+// make one function who take marks and return grade
 function marks (mark){
     if(mark >= 0 && mark <= 36){
     console.log(`🚀 ~ Student ${mark} fail  ~ :` )
@@ -18,7 +19,8 @@ function marks (mark){
     }
 }
 marks(101);
-let mark = require("readline");
+
+// make one function who take marks and return grade
 
 function marks(mark){
 switch (true) {
@@ -46,8 +48,10 @@ switch (true) {
             }
 }
 }
-marks();
+marks(92);
 
+
+// make one function who take marks and grade critaria and return a grade
 let arr = [
     {max : 36,min :0, grade :'fail'},
     {max : 50,min :37, grade :'E'},
@@ -72,4 +76,4 @@ function getGrade(marks , arr){
       
 }
 }
-getGrade(101,arr);
+getGrade(85,arr);

@@ -13,4 +13,4 @@ function printArrayElements(arr, num) {
   }
 }
 
-printArrayElements(arr, 4);
+printArrayElements(arr, 3);

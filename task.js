@@ -13,4 +13,7 @@ function printArrayElements(arr, num) {
   }
 }
 
-printArrayElements(arr, 3);
+printArrayElements(arr, 1);
+// printArrayElements(arr, 5);
+// printArrayElements(arr, -1);
+// printArrayElements(arr, 6);
